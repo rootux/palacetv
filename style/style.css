@@ -1,0 +1,118 @@
+body {
+	background: black;
+	padding: 0px 10px 10px 10px;
+	font-family: 'Open Sans', serif;
+	font-size: 20px;
+	color: white;
+	margin: 0px 8em;
+}
+
+body h2 {
+	text-align: center;
+	color: white;
+}
+
+ul {
+	text-align: left;
+}
+
+h3 {
+	margin: 3em 0 0 0;
+}
+
+
+form {
+	float:right;
+	margin-bottom: 1em;
+}
+
+a {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.contact {
+	float:left
+	margin-top:0;
+}
+
+.alignleft {
+	text-align: left;
+}
+
+.alignright {
+	text-align: right;
+}
+
+.ytplayer {
+	display: inline-block;
+}
+
+a {
+	text-decoration: none;
+	border-bottom: 2px solid rgba(160, 128, 202, 0.82);
+}
+
+a:visited, a:focus {
+	text-decoration: none;
+	border-bottom: 2px solid rgba(160, 128, 202, 0.82);
+}
+
+a:active, a:hover {
+	text-decoration: none;
+	border-bottom: 2px solid rgba(160, 128, 202, 0.82);
+	background-color: #B288C0;
+}
+
+/*=======================
+++++ FOOTER
+=======================*/
+
+#footer {
+	padding-top: 10px;
+	text-align: left;
+	height: 73px;
+	margin-top: 30px;
+}
+
+/*
+It's important to match the tv size with the youtube video size
+*/
+.players {
+	position: relative;
+	text-align: center;
+	margin: 0 auto;
+	padding: 85px 300px 0 101px;
+	height: 600px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url('/style/tv.png');
+}
+
+.tvBtn {
+	color: red;
+	font-size: 18px;
+	vertical-align: top;
+	position: absolute;
+	left: calc(50% + 357px);
+	top: calc(50% - 17px);
+	width: 101px;
+	height: 101px;
+	background-color: #443d377d;
+	border-radius: 100px;
+	cursor: pointer;
+}
+
+.tvBtn:hover {
+	background-color: #443d37ad;
+}
+
+.tvBtn:focus {
+  outline: none;
+}
+
+.tvBtnInfo {
+	position: relative;
+	top: -28px;
+}
