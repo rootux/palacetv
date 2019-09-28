@@ -87,7 +87,7 @@ It's important to match the tv size with the youtube video size
 	height: 600px;
 	background-repeat: no-repeat;
 	background-position: center;
-	background-image: url('/style/tv.png');
+	background-image: url('./style/tv.png');
 }
 
 .tvBtn {
